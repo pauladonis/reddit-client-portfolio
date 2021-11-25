@@ -1,0 +1,36 @@
+* {
+  background-color: #becab9ce;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: montserrat,sans-serif;
+}
+
+
+.App .Content{
+  display:flex;
+  margin: 2rem auto;
+  flex-direction: row;
+  gap: 2em;
+}
+
+.App .Content .Articles{
+  display:flex; 
+  flex-direction: column;
+  padding:2rem;
+  align-items:center; 
+}
+
+.App .Content .Subreddits{
+  display:flex; 
+  flex-direction: column;
+  padding:2rem;
+}
+
+
+@media (max-width: 45em) {
+  .App .Content {
+    flex-wrap:wrap;
+  }
+}
+

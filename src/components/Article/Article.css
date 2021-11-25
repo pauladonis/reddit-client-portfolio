@@ -1,0 +1,18 @@
+
+  
+  .Articles div :hover {
+    background-color:rgba(163, 95, 95, 0.651)
+  }
+  
+  @media (max-width: 45em) {
+    .Articles{
+      font-size: 15px;
+    }
+  }
+
+  @media (max-width: 45em) {
+    .Articles button{
+      font-size: 10px;
+    }
+  }
+  
